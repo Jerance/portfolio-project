@@ -1,0 +1,81 @@
+.A_Propos{
+    margin-left: 20px;
+    padding: 80px;
+}
+
+.title{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color:lightskyblue;
+}
+
+.A_Propos .photo_2_moi{
+    height: 30%;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 dimgray, 0 6px 20px 0 dimgray;
+}
+
+.A_Propos span{
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px cornflowerblue;
+    padding: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    float: right;
+    height: 50%;
+    width: 50%;
+    font-size: 16px;
+    margin-right: 108px;
+    margin-top: 5%;
+}
+
+.A_Propos .infos_text{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 256px;
+    margin-left: 35px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap!important ;
+    justify-content: center;
+}
+
+
+.A_Propos .flex-wrap .primary_button{
+    align-items: center;
+    border-radius: 8px;
+    color:white;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 8px 20px !important;
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(88 88 88 / 25%);
+    text-decoration: none;
+}
+
+.A_Propos .flex-wrap .secondary_button{
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    background-color:orangered;
+    border: none;
+    padding: 8px 20px !important;
+    margin-left: 10%;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(88 88 88 / 25%);
+    text-decoration: none;
+
+}
