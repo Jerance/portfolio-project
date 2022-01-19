@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    background: #212529;
+    position:relative;
+    bottom:0;
+    width:100%;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin: 0;
+}
