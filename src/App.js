@@ -1,45 +1,27 @@
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Portfolio_container/Navbar";
-import Header from "./Portfolio_container/Header";
+import Navbar from "./Portfolio_container/navBar/Navbar";
+import Header from "./Portfolio_container/Header/Header";
 import Footer from "./Portfolio_container/Footer/Footer";
 import AboutMe from "./Portfolio_container/About-me/about-me";
 import Particles from "react-particles-js";
+import {BrowserRouter, Routes} from "react-router-dom";
 
 
 function App() {
   return (
       <div>
-          <Particles
-              params={{
-                  particles: {
-                      number: {
-                          value:25,
-                          density: {
-                              enable: true,
-                              value_area: 500,
-                          },
-                      },
-                      shape:{
-                          type:"star",
-                          stroke:{
-                              width:6,
-                              color:"#00000"
-                          },
-                      },
-                  },
-                  interactivity: { //**
-                      "detect_on": "window"
-                  },
-              }}
-          />
-          <Navbar/>
-          <Header/>
-          <AboutMe>
-
-          </AboutMe>
-          <Footer/>
+          <BrowserRouter>
+              <Navbar/>
+              <Header/>
+              <AboutMe/>
+              <Routes>
+                  {/*mettre en href dans la NavBar le path pour ainsi utiliser le rooter*/}
+                  {/*<Route path="/contact" element={<Contact />}/> */}
+              </Routes>
+              <Footer/>
+          </BrowserRouter>
           <a className="scroll_button" href="#"><i className="fas fa-chevron-up"></i></a>
       </div>
   );
