@@ -1,38 +1,19 @@
 import React from "react";
-import logo from "../../media/depositphotos_359808764-stock-illustration-initial-mj-letter-logo-vector.jpeg";
-import './navbar.css';
-import {Route, Link , Router} from "react-router-dom";
+import "./navbar.css";
+import Logo from "../../media/Capture d’écran 2022-02-12 à 09.56.40.png";
 
-const Navbar = () => {
-
+const Navbar = ({ sticky }) => {
     return (
-
-        <nav id="nav" className="barre_nav">
-
-            <ul className="navbar-nav">
-
-                <a href="../../App.js"><img className="logo_Accueil" src={logo} alt="logo"/></a>
-
-                <li>
-                    <a className="nav-link" href="./About-me/about-me.js.#about" >À Propos</a>
-                </li>
-
-                <li>
-                    <a className="nav-link" href="#skills">Compétences</a>
-                </li>
-
-                <li>
-                    <a className="nav-link" href="#path">Parcours</a>
-                </li>
-
-                <li>
-                    <a className="nav-link" href="#projects">Projets</a>
-                </li>
-
+        <nav className={sticky ? "navbar navbar-sticky" : "navbar"}>
+            <div className="navbar--logo-holder">
+                {sticky ? <img src={Logo} alt="logo" className="navbar--logo" /> : null}
+            </div>
+            <ul className="navbar--link">
+                <li className="navbar--link-item">Home</li>
+                <li className="navbar--link-item">About</li>
+                <li className="navbar--link-item">Contact us</li>
+                <li className="navbar--link-item">Blog</li>
             </ul>
-
         </nav>
-    )
-}
-
-export default Navbar
+    )};
+export default Navbar;

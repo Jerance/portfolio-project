@@ -2,19 +2,26 @@ import React from "react";
 import Typed from "react-typed";
 import me_photo from "../../media/photo_2_moi.jpeg"
 import './header.css'
-const Header = () => {
+const Header = ({element}) => {
 
     return(
 
-        <div className="presentation">
+        <div ref={element} className="presentation" >
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <div className="main-info">
-                <Typed
+                {/*<Typed
                     className="typed-text"
                     strings={["👋 Bonjour à tous !","Je m'appelle Jerance MICHAEL 😁"]}
                     typeSpeed={50}
                     backSpeed={30}
                     loop
-                />
+                />*/}
+
                 <img className="photo_accueil" src={me_photo} alt="photo_2_moi"/>
                 <div className="space-icones">
                     <div className="item skill-box animated fadeInUp">
