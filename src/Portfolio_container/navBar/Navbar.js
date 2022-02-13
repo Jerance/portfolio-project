@@ -9,10 +9,26 @@ const Navbar = ({ sticky }) => {
                 {sticky ? <img src={Logo} alt="logo" className="navbar--logo" /> : null}
             </div>
             <ul className="navbar--link">
-                <li className="navbar--link-item">Home</li>
-                <li className="navbar--link-item">About</li>
-                <li className="navbar--link-item">Contact us</li>
-                <li className="navbar--link-item">Blog</li>
+                <li className="navbar--link-item">
+                    <a className="nav-link" href="../About-me/about-me.js#about" >À Propos</a>
+                </li>
+                <li className="navbar--link-item">
+                    <a className="nav-link" href="#skills">Compétences</a>
+                </li>
+                <li className="navbar--link-item">
+                    <a className="nav-link" href="#path">Parcours</a>
+                </li>
+                <li className="navbar--link-item">
+                    <a className="nav-link" href="#projects">Projets</a>
+                </li>
+                <li className="navbar--link-item">
+                    <a className="nav-link" href="#passion">Centre D'intérets </a>
+                </li>
+                <li className="navbar--link-item">
+                    <a className="nav-link" href="#contact">Contact</a>
+                </li>
+                <li className="navbar--link-item">EN</li>
+                <li className="navbar--link-item">FR</li>
             </ul>
         </nav>
     )};
