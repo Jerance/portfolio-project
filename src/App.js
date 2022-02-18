@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Portfolio_container/navBar/Navbar";
-import Header from "./Portfolio_container/Header/Header";
+import HomePage from "./Portfolio_container/HomePage/HomePage";
 import Footer from "./Portfolio_container/Footer/Footer";
 import AboutMe from "./Portfolio_container/About-me/about-me";
 import Particles from "react-particles-js";
@@ -17,7 +17,7 @@ function App() {
       <div>
           <BrowserRouter>
               <Navbar sticky={isSticky}/>
-              <Header element={element} />
+              <HomePage element={element} />
               <AboutMe/>
               <Routes>
                   {/*mettre en href dans la NavBar le path pour ainsi utiliser le rooter*/}

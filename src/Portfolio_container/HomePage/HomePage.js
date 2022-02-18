@@ -1,13 +1,13 @@
 import React from "react";
+import {Slide} from "react-slideshow-image"
 import Typed from "react-typed";
 import me_photo from "../../media/photo_2_moi.jpeg"
-import './header.css'
-const Header = ({element}) => {
+import './styleHomePage.css'
+const HomePage = ({element}) => {
 
     return(
 
         <div ref={element} className="presentation" >
-            <br/>
             <br/>
             <br/>
             <br/>
@@ -49,4 +49,4 @@ const Header = ({element}) => {
         </div>
     )}
 
-export default Header;
+export default HomePage;

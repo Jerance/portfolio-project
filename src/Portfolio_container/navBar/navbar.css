@@ -76,7 +76,7 @@ ul{
 
 @keyframes moveDown {
     from {
-        transform: translateY(-5rem);
+        transform: translateY(-20rem);
     }
     to {
         transform: translateY(0rem);

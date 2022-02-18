@@ -13,6 +13,7 @@
     "react-particles-js": "^3.6.0",
     "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.3",
+    "react-slideshow-image": "^3.7.0",
     "react-typed": "^1.2.0",
     "root": "^3.2.0",
     "web-vitals": "^1.1.2"
