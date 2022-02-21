@@ -2,11 +2,11 @@ import React from "react";
 import './style-about.css';
 import me from '../../media/Photo.jpeg';
 
-const AboutMe =() => {
+const AboutMe =({element}) => {
 
     return(
 
-        <div className="A_Propos ">
+        <div ref={element} className="A_Propos ">
 
             <div id="about"className="about_container">
 
