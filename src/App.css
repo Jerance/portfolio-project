@@ -9,6 +9,10 @@ body{
   overflow-x: hidden;
 }
 
+.App{
+  background-color: #a3bad7;
+}
+
 .scroll_button{
   position: fixed;
   width: 50px;

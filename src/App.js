@@ -15,7 +15,7 @@ function App() {
 
     return (
 
-      <div>
+      <div className="App">
           <BrowserRouter>
               <Navbar sticky={isSticky}/>
               <Slideshow/>
@@ -24,6 +24,7 @@ function App() {
                   {/*mettre en href dans la NavBar le path pour ainsi utiliser le rooter*/}
                   {/*<Route path="/contact" element={<Contact />}/> */}
               </Routes>
+              <AboutMe/>
               <Footer/>
           </BrowserRouter>
           <a className="scroll_button" href="#"><i className="fas fa-chevron-up"></i></a>
