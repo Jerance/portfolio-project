@@ -1,6 +1,5 @@
 import React from "react";
 import './footer.css';
-import mail_logo from '../../media/email_icon-icons.com_50400.png';
 
 const Footer= () => {
     return(

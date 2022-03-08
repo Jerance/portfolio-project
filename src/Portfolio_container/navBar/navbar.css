@@ -1,84 +1,84 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 2.5rem;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    background-color: transparent;
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2.5rem;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-color: transparent;
+  color: white;
 }
 
 .navbar-sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 1px 1px 1px black;
-    animation: moveDown 0.5s ease-in-out;
-    background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 1px black;
+  animation: moveDown 0.5s ease-in-out;
+  background-color: rgb(235, 235, 235);
 }
 
 .navbar--logo-holder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar--logo {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.5rem;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.5rem;
 }
 
 .navbar--link {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .navbar--link-item {
-    margin: 1rem;
-    padding: 0 0.3rem;
-    cursor: pointer;
-    color: black;
+  margin: 1rem;
+  padding: 0 0.3rem;
+  cursor: pointer;
+  color: black;
 }
 
-ul{
-    margin: 1px;
+ul {
+  margin: 1px;
 }
 
-.nav-link{
-    padding: 0;
-    color: black;
-    font-weight: 500;
+.nav-link {
+  padding: 0;
+  color: black;
+  font-weight: 500;
 }
 
-.nav-link:hover{
-    color: black;
-    font-weight: 800;
+.nav-link:hover {
+  color: black;
+  font-weight: 800;
 }
-.nav-link::after{
-    content: "";
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    text-align: right;
-    width: 100%;
-    height: 3px;
-    background: red;
-    transform: scale(0);
-    transition: transform 0.35s ease-in-out;
+.nav-link::after {
+  content: "";
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: right;
+  width: 100%;
+  height: 3px;
+  background: red;
+  transform: scale(0);
+  transition: transform 0.35s ease-in-out;
 }
 
-.nav-link:hover::after{
-    transform: scale(1);
+.nav-link:hover::after {
+  transform: scale(1);
 }
 
 @keyframes moveDown {
-    from {
-        transform: translateY(-20rem);
-    }
-    to {
-        transform: translateY(0rem);
-    }
+  from {
+    transform: translateY(-20rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
 }

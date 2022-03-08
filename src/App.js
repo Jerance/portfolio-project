@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,12 +25,10 @@ function App() {
                   {/*mettre en href dans la NavBar le path pour ainsi utiliser le rooter*/}
                   {/*<Route path="/contact" element={<Contact />}/> */}
               </Routes>
-              <AboutMe/>
               <Footer/>
           </BrowserRouter>
           <a className="scroll_button" href="#"><i className="fas fa-chevron-up"></i></a>
       </div>
   );
 }
-
 export default App;

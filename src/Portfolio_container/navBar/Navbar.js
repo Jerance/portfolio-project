@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import Logo from "../../media/Capture d’écran 2022-02-12 à 09.56.40.png";
+import Logo from "../../media/mdranahamid200400723.jpeg";
 
 const Navbar = ({ sticky }) => {
     return (
