@@ -16,7 +16,7 @@
   left: 0;
   box-shadow: 1px 1px 1px black;
   animation: moveDown 0.5s ease-in-out;
-  background-color: rgb(235, 235, 235);
+  background: white;
 }
 
 .navbar--logo-holder {

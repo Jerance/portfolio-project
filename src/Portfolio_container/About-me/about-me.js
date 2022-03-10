@@ -5,6 +5,7 @@ import './style-about.css';
 import me from '../../media/Photo.jpeg';
 import CV from '../../media/CV/MICHAEL Jérance CERGY CODEUR 1ere ANNEE.pdf'
 
+
 const AboutMe =({element}) => {
 
     return(
@@ -43,16 +44,27 @@ const AboutMe =({element}) => {
                     </p>
                 </div>
                 
-                
             </div>
 
             <div className="d-flex flex-wrap">
-                    <a href={CV} download className="primary_button">Télécharger le CV 
-                        <i className="fas fa-download"></i></a>
-                    <a href="./contact.html#contact" className="secondary_button">Me contacter
-                        <i className="fas fa-paper-plane"></i>
-                    </a>
+                <a href={CV} download className="primary_button">Télécharger le CV 
+                    <i className="fas fa-download"></i></a>
+                <a href="./contact.html#contact" className="secondary_button">Me contacter
+                    <i className="fas fa-paper-plane"></i>
+                </a>
             </div>
+
+            <button>
+                <div class="svg-wrapper-1">
+                    <div class="svg-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <span>Contact</span>
+            </button>
 
             
 

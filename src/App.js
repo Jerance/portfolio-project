@@ -8,6 +8,7 @@ import Footer from "./Portfolio_container/Footer/Footer";
 import AboutMe from "./Portfolio_container/About-me/about-me";
 import useSticky from '../src/Portfolio_container/navBar/useSticky'
 import {BrowserRouter, Routes} from "react-router-dom";
+import Skills from "./Portfolio_container/Skills/skills"
 
 
 function App() {
@@ -15,12 +16,13 @@ function App() {
     const { isSticky, element } = useSticky()
 
     return (
-
+        
       <div className="App">
           <BrowserRouter>
               <Navbar sticky={isSticky}/>
               <Slideshow/>
               <AboutMe element={element}/>
+              <Skills/>
               <Routes>
                   {/*mettre en href dans la NavBar le path pour ainsi utiliser le rooter*/}
                   {/*<Route path="/contact" element={<Contact />}/> */}
