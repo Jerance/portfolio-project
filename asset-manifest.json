@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio-project%20/static/css/main.31a6e86b.chunk.css",
+    "main.js": "/portfolio-project%20/static/js/main.d95c58d5.chunk.js",
+    "main.js.map": "/portfolio-project%20/static/js/main.d95c58d5.chunk.js.map",
+    "runtime-main.js": "/portfolio-project%20/static/js/runtime-main.af42497d.js",
+    "runtime-main.js.map": "/portfolio-project%20/static/js/runtime-main.af42497d.js.map",
+    "static/css/2.0f079601.chunk.css": "/portfolio-project%20/static/css/2.0f079601.chunk.css",
+    "static/js/2.a7c6f5ea.chunk.js": "/portfolio-project%20/static/js/2.a7c6f5ea.chunk.js",
+    "static/js/2.a7c6f5ea.chunk.js.map": "/portfolio-project%20/static/js/2.a7c6f5ea.chunk.js.map",
+    "static/js/3.04f08c31.chunk.js": "/portfolio-project%20/static/js/3.04f08c31.chunk.js",
+    "static/js/3.04f08c31.chunk.js.map": "/portfolio-project%20/static/js/3.04f08c31.chunk.js.map",
+    "index.html": "/portfolio-project%20/index.html",
+    "static/css/2.0f079601.chunk.css.map": "/portfolio-project%20/static/css/2.0f079601.chunk.css.map",
+    "static/css/main.31a6e86b.chunk.css.map": "/portfolio-project%20/static/css/main.31a6e86b.chunk.css.map",
+    "static/js/2.a7c6f5ea.chunk.js.LICENSE.txt": "/portfolio-project%20/static/js/2.a7c6f5ea.chunk.js.LICENSE.txt",
+    "static/media/Accueil.f9be25b5.png": "/portfolio-project%20/static/media/Accueil.f9be25b5.png",
+    "static/media/Agile.977e8169.png": "/portfolio-project%20/static/media/Agile.977e8169.png",
+    "static/media/Back-end.4da4684f.png": "/portfolio-project%20/static/media/Back-end.4da4684f.png",
+    "static/media/Front End.bfcf7476.png": "/portfolio-project%20/static/media/Front End.bfcf7476.png",
+    "static/media/MICHAEL Jérance CERGY CODEUR 1ere ANNEE.ad4ed212.pdf": "/portfolio-project%20/static/media/MICHAEL Jérance CERGY CODEUR 1ere ANNEE.ad4ed212.pdf",
+    "static/media/Photo.2b704c36.jpeg": "/portfolio-project%20/static/media/Photo.2b704c36.jpeg",
+    "static/media/mdranahamid200400723.defca4ee.jpeg": "/portfolio-project%20/static/media/mdranahamid200400723.defca4ee.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af42497d.js",
+    "static/css/2.0f079601.chunk.css",
+    "static/js/2.a7c6f5ea.chunk.js",
+    "static/css/main.31a6e86b.chunk.css",
+    "static/js/main.d95c58d5.chunk.js"
+  ]
+}
